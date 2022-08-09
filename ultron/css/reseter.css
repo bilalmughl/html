@@ -1,0 +1,133 @@
+.btn:not(.btn-link){
+    width: 100%;
+    max-width: 175px;
+    min-height: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 11px;
+}
+
+
+
+
+
+/*btn-primary*/
+.btn-primary{
+    /* background:var(--theme-color); */
+    /* border-color:var(--theme-color); */
+}
+.btn-primary:hover{
+    color: #fff;
+    /* background:var(--theme-color); */
+    border-color: var(--theme-color);
+}
+
+
+
+
+
+
+
+
+/*.form-check-input:checked,*/
+.form-check-input:checked{
+    background-color:var(--theme-color);
+    border-color:var(--theme-color);
+}
+.form-switch .form-check-input:focus {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e);
+}
+/*.mark, mark*/
+.mark, mark{
+    color: #fff;
+    background-color: var(--theme-color);
+}
+
+
+/**/
+.styledSelect,
+.form-control,
+.form-select,
+textarea,
+select,
+html body .gform_wrapper form ul.gform_fields li.gfield input[type="text"],
+html body .gform_wrapper form ul.gform_fields li.gfield input[type="email"],
+html body .gform_wrapper form ul.gform_fields li.gfield input[type="number"],
+html body .gform_wrapper form ul.gform_fields li.gfield input[type="tel"] {
+    border-radius: 0px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    box-shadow: none;
+    color:var(--theme-color);
+    height:54px;
+    padding: 7px 15px;
+    transition: all 0.3s;
+}
+.form-select{
+    padding: .375rem 2.25rem .375rem .75rem;
+}
+.form-control:focus{
+    border-color: var(--theme-color);
+}
+.input-group-text{
+    color: #fff;
+    border-radius: 0 ;
+    border-color: var(--theme-color);
+    background-color: var(--theme-color);
+}
+.accordion-item:last-of-type .accordion-button,
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 0;
+}
+/*.accordion-button*/
+.accordion-button{
+    border-radius: 0;
+}
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Box Shadow*/
+.form-control:focus,
+.form-check-input:focus,
+.btn-check:active+.btn-primary:focus, 
+.btn-check:checked+.btn-primary:focus, 
+.btn-primary.active:focus, 
+.btn-primary:active:focus, 
+.accordion-button:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem var(--theme-shadow);
+}
+
+
+/**/
+.btn-primary:disabled,
+.btn-primary,
+.bg-primary{
+    background-color:var(--theme-color);
+    border-color:var(--theme-color);
+}
