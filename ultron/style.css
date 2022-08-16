@@ -1,6 +1,7 @@
  :root {
-      --theme-color: #f9603e !important;
-      --theme-shadow: rgba(249,96,62,.5) !important;
+      --theme-color: rgb(23, 191, 152) !important;
+      --theme-hover-color: #13a382 !important;
+      --theme-shadow: rgba(23, 191, 152,.5) !important;
   }
 
 
